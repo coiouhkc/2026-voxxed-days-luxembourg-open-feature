@@ -57,7 +57,17 @@ Software development technique that allows enabling, disabling or changing the b
 
 ---
 
-![bg 70%](images/meme.png)
+### `whoami`?
+* Alexei Bratuhin @ OpenValue Düsseldorf
+* Java since `String#contains` didn't exist <a href="#footnote-1">[1]</a>
+* actually needed a haircut back then
+* not related to Java
+* or is it? ;)
+
+<h4></h4>
+<sub><sub><sub><ol>
+    <li id="footnote-1">appeared in 1.5, in 2004</li>
+</ol></sub></sub></sub>
 
 ---
 
@@ -66,6 +76,10 @@ Software development technique that allows enabling, disabling or changing the b
 ###### Toggles → boolean-only?
 
 No! Whoever refactored a nested `if/then/else` to a `switch` knows it.
+
+---
+
+![bg 70%](images/meme.png)
 
 ---
 
@@ -95,7 +109,93 @@ No! Whoever refactored a nested `if/then/else` to a `switch` knows it.
 
 ###### Demo!
 
-Pizza store
+Pizza tycoon controversy
+
+---
+
+### How feature flags (contd.)?
+
+###### DiWHY
+
+Custom + in-memory
+
+---
+
+### How feature flags (contd.)?
+
+###### DiWHY
+
+MBean + in-memory
+
+---
+
+### How feature flags (contd.)?
+
+###### Togglz
+
+Togglz + in-memory
+
+---
+
+### How feature flags (contd.)?
+
+###### Togglz
+
+Togglz + in-memory + strategy
+
+---
+
+### How feature flags (contd.)?
+
+###### OpenFeature
+
+Flagd
+
+---
+
+### How feature flags (contd.)?
+
+###### OpenFeature
+
+Flagd + multiple envs
+
+---
+
+### How feature flags (contd.)?
+
+###### OpenFeature
+
+Flagd + multiple envs + multiple apps + fractional
+
+---
+
+### How feature flags (contd.)?
+
+###### OpenFeature (try-it-at-home)
+
+* Hooks<a href="#footnote-1">[1]</a>
+* Events<a href="#footnote-1">[1]</a>
+* Tracking<a href="#footnote-2">[2]</a>
+* Observability<a href="#footnote-2">[2]</a>
+
+<h4></h4>
+<sub><sub><sub><ol>
+    <li id="footnote-1">hardening</li>
+    <li id="footnote-12">experimental</li>
+</ol></sub></sub></sub>
+
+---
+
+### How feature flags (contd.)?
+
+* Togglz (https://www.togglz.org/)<a href="#footnote-1">[1]</a>
+* OpenFeature (https://openfeature.dev/)
+* Quarkus Feature Flags (https://quarkus.io/blog/quarkus-feature-flags/)
+
+<h4></h4>
+<sub><sub><sub><ol>
+    <li id="footnote-1">https://github.com/coiouhkc/demo-quarkus-togglz</li>
+</ol></sub></sub></sub>
 
 ---
 
