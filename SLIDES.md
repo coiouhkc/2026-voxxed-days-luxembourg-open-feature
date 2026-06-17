@@ -90,6 +90,7 @@ No! Whoever refactored a nested `if/then/else` to a `switch` knows it.
 * feature paywall
 * country-specific legislation
 * A/B testing
+* long-lived branches
 
 ---
 
@@ -110,6 +111,10 @@ No! Whoever refactored a nested `if/then/else` to a `switch` knows it.
 ###### Demo!
 
 Pizza tycoon controversy
+
+<!--
+https://en.wikipedia.org/wiki/Hawaiian_pizza
+-->
 
 ---
 
